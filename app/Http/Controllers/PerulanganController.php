@@ -48,8 +48,5 @@ class PerulanganController extends Controller
         $flpp = sprintf("%.2f", $lpp);
         echo $flpp."<br>";
     }
-    public function hasil(){
-
-    }
-
+   
 }
