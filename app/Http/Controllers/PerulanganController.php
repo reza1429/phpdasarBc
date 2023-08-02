@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PerulanganController extends Controller
 {
     public function main(){
-        $i = sprintf("%.2f", 1);
+        $i = 1;
         for (; $i <= 100 ; $i++) { 
             if ($i%3==0 && $i%5==0) {
                 $this->lPP($i);
